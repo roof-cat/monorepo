@@ -1,0 +1,33 @@
+{
+  "globals": {
+    "chrome": "readonly"
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "webextensions": true,
+    "node": true
+  },
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  },
+  "rules": {
+    "no-undef": "error",
+    "indent": [
+      "warn",
+      "tab"
+    ],
+    "linebreak-style": [
+      "warn",
+      "unix"
+    ],
+    "quotes": [
+      "warn",
+      "single"
+    ],
+    "semi": [
+      "warn"
+    ]
+  }
+}
